@@ -7,6 +7,12 @@ Temperature and humidity management of a terrarium using bluetooth devices.
 
 ## Installation
 
+These libraries and their dependencies are required by the [node-bluetooth package](https://www.npmjs.com/package/node-bluetooth):
+```bash
+$ sudo apt-get install libbluetooth-dev
+```
+
+Install the packages:
 ```bash
 $ npm install
 ```
@@ -37,6 +43,6 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Stay in touch
+## Author
 
-- Author - [Sergio Muñoz](https://github.com/sergio17791/)
+- [Sergio Muñoz](https://github.com/sergio17791/)
